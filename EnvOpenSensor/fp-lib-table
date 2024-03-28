@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LTP-305G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LTP-305G.pretty")(options "")(descr ""))
+)
