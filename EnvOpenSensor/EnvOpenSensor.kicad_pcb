@@ -605,7 +605,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp 5837e7b0-25dc-4221-97fd-dd6065c233b8)
-    (at 71.94 36.12)
+    (at 71.94 36.11)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "EnvOpenSensor.kicad_sch")
@@ -2041,7 +2041,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp d1a38163-7d91-4f44-8d1d-fad152d4148a)
-    (at 33.44 36.12)
+    (at 33.39 36.12)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "EnvOpenSensor.kicad_sch")
@@ -2314,7 +2314,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "F.Cu")
     (tstamp deea7112-b2d8-47b9-ad87-89f217446072)
-    (at 52.69 36.12)
+    (at 52.64 36.12)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "EnvOpenSensor.kicad_sch")
@@ -2397,6 +2397,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d4047924-faa7-4327-8217-d3dcf14de654))
   (gr_line (start 15 77.5) (end 15 15)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f506234b-cc18-47e0-9f3e-16ddca052aab))
+  (gr_text "EnvOpenSensor" (at 59.75 31.9) (layer "F.Cu") (tstamp 6c0498e6-bcdc-4e62-9edf-43877e0ade89)
+    (effects (font (size 0.8 0.8) (thickness 0.15) bold))
+  )
   (gr_text "env" (at 59.825 70) (layer "F.Mask") (tstamp 44d5d2e0-c2f1-40d1-aed7-c015b9fc7913)
     (effects (font (face "Dissolve Regular") (size 5 5) (thickness 0.15)))
     (render_cache "env" 0
