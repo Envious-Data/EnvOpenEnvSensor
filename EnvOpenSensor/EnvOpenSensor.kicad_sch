@@ -5199,7 +5199,7 @@
   (symbol (lib_id "Device:C_Small") (at 100.33 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07464906-47a2-461c-9465-8c92b750d991)
-    (property "Reference" "C1" (at 100.965 27.94 0)
+    (property "Reference" "C_BYP_1" (at 101.6 27.94 0)
       (effects (font (size 0.25 0.25)))
     )
     (property "Value" "10nF 0402" (at 100.33 29.21 0)
@@ -5216,7 +5216,7 @@
     (instances
       (project "EnvOpenSensor"
         (path "/2bbc1dac-4f9d-46a0-a466-6585abe7fd58"
-          (reference "C1") (unit 1)
+          (reference "C_BYP_1") (unit 1)
         )
       )
     )
@@ -6145,7 +6145,7 @@
     (property "Reference" "U3" (at 92.075 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SPX3819DIY-305-5-L-3-3" (at 92.075 17.78 0)
+    (property "Value" "LDO SOT-23-5 3.3V" (at 92.075 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 92.075 15.875 0)
@@ -6174,7 +6174,7 @@
     (property "Reference" "J1" (at 31.115 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "USB_C_Receptacle_USB2.0_16P" (at 31.115 20.32 0)
+    (property "Value" "HRO_TYPE-C-31-M-12" (at 31.115 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 34.925 40.005 0)
