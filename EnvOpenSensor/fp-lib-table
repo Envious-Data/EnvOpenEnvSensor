@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LTP-305G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LTP-305G.pretty")(options "")(descr ""))
   (lib (name "IS31FL3731-QFLS2-TR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/IS31FL3731-QFLS2-TR")(options "")(descr ""))
+  (lib (name "RP2350_60QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/Libraries/RP2350_60QFN_minimal.pretty")(options "")(descr ""))
 )

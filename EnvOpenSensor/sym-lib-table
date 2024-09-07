@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ltp-305g")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ltp-305g.kicad_sym")(options "")(descr ""))
   (lib (name "IS31FL3731-QFLS2-TR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/IS31FL3731-QFLS2-TR/IS31FL3731-QFLS2-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_RP2350")(type "KiCad")(uri "${KIPRJMOD}/Libraries/RP2350_60QFN_minimal.pretty/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
 )
