@@ -5612,6 +5612,50 @@
 		)
 		(uuid "fc0f8861-728b-42b4-b45b-2087552d5427")
 	)
+	(global_label "PB3"
+		(shape input)
+		(at 207.645 83.185 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "602c874e-fcaa-42db-a2de-fab9d9b55901")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.3797 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PB5"
+		(shape input)
+		(at 207.645 118.745 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70745d44-3caa-48b6-90a1-5ae88c65d373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.3797 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 225.425 67.945 0)
@@ -5656,6 +5700,28 @@
 			)
 		)
 	)
+	(global_label "PB1"
+		(shape input)
+		(at 207.645 80.645 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a25e996f-611a-4831-a294-849eb1f0e4da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.3797 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA_5V0"
 		(shape input)
 		(at 207.645 75.565 0)
@@ -5669,6 +5735,28 @@
 		(uuid "ad8a8958-bc6f-4a00-87f0-c42e9b562342")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 222.7254 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PB4"
+		(shape input)
+		(at 207.645 116.205 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8fd821d-a6f8-4398-98cc-0e700b9ce26c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.3797 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
