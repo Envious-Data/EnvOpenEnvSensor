@@ -400,6 +400,128 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Microchip_ATtiny:ATtiny1634-M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1231,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 109.22) (xy 68.58 109.22)
+			(xy 77.47 109.22) (xy 68.58 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1258,6 +1380,16 @@
 			(type default)
 		)
 		(uuid "8dd5ade7-45ab-470d-b9c0-004e191f7092")
+	)
+	(wire
+		(pts
+			(xy 90.424 109.22) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90157f37-c461-4c08-a404-3352320180fa")
 	)
 	(wire
 		(pts
@@ -1909,6 +2041,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 90.424 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e8c97ae-7cb9-4d38-880f-66a99441e8bb")
+		(property "Reference" "#PWR049"
+			(at 90.424 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 90.424 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.424 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.424 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 90.424 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d56c15ea-25b9-420d-9acd-c53184346386")
+		)
+		(instances
+			(project "EnvOpenSensor"
+				(path "/2bbc1dac-4f9d-46a0-a466-6585abe7fd58/ed2ce937-d069-4d0b-9c23-efb500873d25"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 53.34 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1968,6 +2166,75 @@
 			(project "EnvOpenSensor"
 				(path "/2bbc1dac-4f9d-46a0-a466-6585abe7fd58/ed2ce937-d069-4d0b-9c23-efb500873d25"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 80.01 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4067167b-410f-4367-98d2-b582e70991f8")
+		(property "Reference" "R6"
+			(at 80.01 110.998 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "10K 0402"
+			(at 80.01 108.204 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bac9c911-b632-4238-b79d-ea219256f13a")
+		)
+		(pin "1"
+			(uuid "7ad5adff-2990-49e6-8a45-76e4c530c348")
+		)
+		(instances
+			(project ""
+				(path "/2bbc1dac-4f9d-46a0-a466-6585abe7fd58/ed2ce937-d069-4d0b-9c23-efb500873d25"
+					(reference "R6")
 					(unit 1)
 				)
 			)
